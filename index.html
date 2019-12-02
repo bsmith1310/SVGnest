@@ -168,7 +168,7 @@
 				document.removeEventListener('dragleave', FileDragHover, false);
 				document.removeEventListener('drop', FileDrop, false);
 				
-				SvgNest.start(progress, renderSvg);
+				SvgNest.start(progress_headless, renderSvg);
 				startlabel.innerHTML = 'Stop Nest';
 				start.className = 'button spinner';
 				configbutton.className = 'button config disabled';
@@ -454,6 +454,10 @@
 				if(percent < 0.02){
 					startTime = new Date().getTime();
 				}
+			}
+
+			function progress_headless(percent){
+				console.log('progress: ' + percent);
 			}
 			
 			var iterations = 0;
