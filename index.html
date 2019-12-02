@@ -83,6 +83,20 @@
 				attachSvgListeners(svg);
 
 				//////////////////////////////////////////////////////////////////////////////////
+
+				// fetch(`/db.json`)
+				// 	.then(response => {
+				// 			if (!response.ok) {
+				// 					throw new Error("HTTP error " + response.status);
+				// 			}
+				// 			return response.json();
+				// 	})
+				// 	.then(json => {
+				// 			console.log(json);
+				// 	});
+
+				// actually, build code in 'frontend' that produces SVG ready to use here
+
 				var bin = document.getElementById('container_bin');
 				window.SvgNest.setbin(bin);
 				startnest();
@@ -612,7 +626,10 @@
 			</div>
 			
 			<div id="select">
-			<svg version="1.1" id="svg2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1147.592px" height="1397.27px" viewBox="0 0 1147.592 1397.27" enable-background="new 0 0 1147.592 1397.27" xml:space="preserve">
+
+					<svg version="1.1" id="svg2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1147.592px" height="1397.27px" viewBox="0 0 1147.592 1397.27" enable-background="new 0 0 1147.592 1397.27" xml:space="preserve"><polygon fill="none" stroke="#010101" stroke-miterlimit="10" points="25.91708490076633,63.45556083439521 25.91708490076633,88.35246254379692 71.75041823409967,88.35246254379692 71.75041823409967,63.45556083439521 "/><polygon fill="none" stroke="#010101" stroke-miterlimit="10" points="123.25787709193247,42.91740298352623 112.90247784935524,81.14358088484435 168.6328770919325,73.16740298352623 183.7249436334093,36.507573037751456 "/><polygon fill="none" stroke="#010101" stroke-miterlimit="10" points="205.79166666666663,14.97222222222222 205.79166666666663,44.916666666666664 250.70833333333331,44.916666666666664 250.70833333333331,14.97222222222222 "/><rect id="container_bin" width="275" height="100" fill="none" stroke="#010101" /></svg>
+
+			<!-- <svg version="1.1" id="svg2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1147.592px" height="1397.27px" viewBox="0 0 1147.592 1397.27" enable-background="new 0 0 1147.592 1397.27" xml:space="preserve">
 
 <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points="514.852,749.664 507.777,740.787 
 	510.303,729.722 520.529,724.796 530.756,729.722 533.281,740.787 526.203,749.664 "/>
@@ -675,7 +692,7 @@
 		c-1.463-0.924-4.159-2.157-7.625-2.157c-4.006,0-6.239,2.311-6.239,5.084c0,3.081,2.233,4.467,7.086,6.316
 		c6.471,2.465,9.782,5.7,9.782,11.246c0,6.547-5.083,11.169-13.941,11.169c-4.082,0-7.856-1.001-10.476-2.542L972.611,55.44z"/>
 <polygon fill="none" stroke="#010101"  points="676.149,23 616.756,23 616.756,1 558.443,34.667 616.756,68.333 616.756,46.333 676.149,46.333 "/>
-</svg>
+</svg> -->
 
 			</div>
 			<div id="bins"></div>
