@@ -1,0 +1,113 @@
+{
+  "projects": [
+    {
+      "project": {
+        "persistedSpreads": [
+          {
+            "aspectRatio": 2.75,
+            "defaultBorderThickness": 0.005,
+            "persistedImageTiles": [
+              {
+                "textureUrl": "/media/mexico/2019-09-30_12-14-23/DCIM/100MSDCF/DSC07917-Pano.tn.jpg",
+                "aspectRatio": 1.840925182912438,
+                "positiveMaskUVs": [
+                  0.25,
+                  0.13580128205128206,
+                  0.25,
+                  0.40740384615384617,
+                  0.75,
+                  0.40740384615384617,
+                  0.75,
+                  0.13580128205128206
+                ],
+                "scale": 0.9166666666666666,
+                "rotation": 0,
+                "translationX": 0.8766685168978159,
+                "translationY": 0.5510513137667922
+              },
+              {
+                "textureUrl": "/media/mexico/2019-09-30_12-14-23/DCIM/100MSDCF/DSC07931.tn.jpg",
+                "aspectRatio": 1.5,
+                "positiveMaskUVs": [
+                  0.25,
+                  0.16666666666666666,
+                  0.25,
+                  0.5,
+                  0.75,
+                  0.5,
+                  0.75,
+                  0.16666666666666666
+                ],
+                "scale": 0.9075,
+                "rotation": 0,
+                "translationX": 1.5743289134378737,
+                "translationY": 0.5459837520364739
+              },
+              {
+                "textureUrl": "/media/mexico/2019-09-30_12-14-23/DCIM/100MSDCF/DSC07937.tn.jpg",
+                "aspectRatio": 1.5,
+                "positiveMaskUVs": [
+                  0.25,
+                  0.16666666666666666,
+                  0.25,
+                  0.5,
+                  0.75,
+                  0.5,
+                  0.75,
+                  0.16666666666666666
+                ],
+                "scale": 0.8983333333333333,
+                "rotation": 0,
+                "translationX": 1.261535177946375,
+                "translationY": -0.016817592805498993
+              }
+            ]
+          },
+          {
+            "aspectRatio": 2.75,
+            "defaultBorderThickness": 0.005,
+            "persistedImageTiles": [
+              {
+                "textureUrl": "/media/mexico/2019-09-30_12-14-23/DCIM/100MSDCF/DSC07981.tn.jpg",
+                "aspectRatio": 1.5,
+                "positiveMaskUVs": [
+                  0.07919580091950706,
+                  0.14756307723892936,
+                  0.25,
+                  0.5,
+                  0.75,
+                  0.5,
+                  0.75,
+                  0.16666666666666666
+                ],
+                "scale": 1,
+                "rotation": 0,
+                "translationX": 1.1043762257101406,
+                "translationY": 0.47153142221331823
+              },
+              {
+                "textureUrl": "/media/mexico/2019-09-30_12-14-23/DCIM/100MSDCF/DSC08013.tn.jpg",
+                "aspectRatio": 1.5,
+                "positiveMaskUVs": [
+                  0.25,
+                  0.16666666666666666,
+                  0.25,
+                  0.5,
+                  0.75,
+                  0.5,
+                  0.75,
+                  0.16666666666666666
+                ],
+                "scale": 0.99,
+                "rotation": 0,
+                "translationX": 1.8051868784133125,
+                "translationY": 0.30006778515621435
+              }
+            ]
+          }
+        ]
+      },
+      "id": "a"
+    }
+  ]
+}
